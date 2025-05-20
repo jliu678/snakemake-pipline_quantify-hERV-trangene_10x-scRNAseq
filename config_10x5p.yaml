@@ -1,0 +1,21 @@
+wl: "/data/wanglab_mgberis/siyi2023summer_snakemake_10x/SingleCell5prime_737K-august-2016.txt"
+#wl: "/data/wanglab_mgberis/siyi2023summer_snakemake_10x/SingleCell3primeV3_3M-february-2018.txt"
+# specify above to use matched barcodes
+
+cblen: 16
+umistart: 17
+umilen: 10
+
+star_index: "/data/wanglab_mgberis/siyi2023summer_snakemake_10x/star_mouse"
+genome: "/data/wanglab_mgberis/siyi2023summer_snakemake_10x/combined.fa"
+annotations: "/data/wanglab_mgberis/siyi2023summer_snakemake_10x/combined.gtf"
+
+input_dir: "/data/wanglab_mgberis/JLd3_4_cervixVagScRNAseq/raw_data_fastqs"
+# above can be overwritten by 'snakemake --config input_dir="raw_reads1"'
+
+mapping_dir: "/data/wanglab_mgberis/JLd3_4_cervixVagScRNAseq/starsolo_result"
+# mapping_dir is the dir containing the final results
+
+done_reads_dir: "/data/wanglab_mgberis/JLd3_4_cervixVagScRNAseq/done_data"
+
+combined_reads_dir: "/data/wanglab_mgberis/JLd3_4_cervixVagScRNAseq/combined_reads"

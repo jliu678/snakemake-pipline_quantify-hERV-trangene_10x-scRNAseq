@@ -1,0 +1,35 @@
+# Ignore specific large or generated files
+combined.fa
+combined.gtf
+snakemake_readme.ipynb
+star_mouse/
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore common system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache and logs
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Ignore virtual environments
+.env
+.venv/
+venv/
+
+# Ignore editor configs and metadata
+*.swp
+*.swo
+*.bak
+*.tmp
+.vscode/
+.idea/
+
+# Ignore Snakemake cache and logs (if used)
+.snakemake/
+*.snakemake.log
