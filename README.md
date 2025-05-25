@@ -4,14 +4,11 @@
 
 
 ## 📑 Table of Contents
-- [📘 Introduction & Reasoning](#-introduction--reasoning-complete-version-is-here)
-- [💡 Usage Example](#-usage-example)
-  - [💻 LSF Scheduler on High-performance Cluster](#-lsf-scheduler-on-high-performance-cluster)
-    - [1. Configure LSF Parameters and Working Directory](#1-configure-lsf-parameters-and-working-directory)
-    - [2. Wrangle File Input](#2-wrangle-file-input)
-    - [3. Other Parameters](#3-other-parameters)
-    - [4. Output File](#4-output-file)
-  - [🧾 Other Usage Examples](#-other-usage-examples)
+- [📘Introduction & Reasoning](#📘introduction--reasoning)
+- [💡usage example](#💡usage-example)
+  - [💻 Snakemake schedules and executes Multiple Jobs on clusters using SLURM](#💻-snakemake-schedules-and-executes-multiple-jobs-on-clusters-using-slurm)
+  - [🧾 Snakemake executing on one job in clusters using SLURM](#🧾-snakemake-executing-on-one-job-in-clusters-using-slurm)
+
 
 ## 📘Introduction & Reasoning (complete version is [here](myhugoblod))
 
