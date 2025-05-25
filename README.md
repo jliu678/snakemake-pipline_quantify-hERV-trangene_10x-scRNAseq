@@ -4,10 +4,10 @@
 
 
 ## 📑 Table of Contents
-- [📘Introduction & Reasoning](#📘introduction--reasoning)
-- [💡usage example](#💡usage-example)
-  - [💻 Snakemake schedules and executes Multiple Jobs on clusters using SLURM](#💻-snakemake-schedules-and-executes-multiple-jobs-on-clusters-using-slurm)
-  - [🧾 Snakemake executing on one job in clusters using SLURM](#🧾-snakemake-executing-on-one-job-in-clusters-using-slurm)
+- [📘Introduction & Reasoning](#introduction--reasoning)
+- [💡usage example](#usage-example)
+  - [💻 Snakemake schedules and executes Multiple Jobs on clusters using SLURM](#snakemake-schedules-and-executes-multiple-jobs-on-clusters-using-slurm)
+  - [🧾 Snakemake executing on one job in clusters using SLURM](#snakemake-executing-on-one-job-in-clusters-using-slurm)
 
 
 ## 📘Introduction & Reasoning (complete version is [here](myhugoblod))
