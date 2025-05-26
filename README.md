@@ -14,7 +14,7 @@
 
 Briefly, we use `Starsolo` to quantify the hERV and transgenes from 10x single-cell RNAseq because
 - **EM algorithm implenmented**: EM algorithm is advantageous in dealing with  multimaping, which is commonly seen for hERV and transgene quantification. Specifically, EM is mathmatically well suitable for estimating parameters in Gaussian Mixture Models, which is similar to the model describing multimapping
-- **"Compatibility with CellRanger"**: Star is the foundation of alignment in CellRanger and Starsolo produces nearly identical gene counts in the same format as the 10x CellRanger, which matters! While CellRanger is not a gold standard, a substantial and growing body of biological interpretations is derived from data processed by it. Aligning with CellRanger enables more meaningful comparisons with such datasets. This is particularly crucial when data integration is required, as no current method can fully correct for technical artifacts without distorting true biological signals.
+- **Compatibility with CellRanger**: Star is the foundation of alignment in CellRanger and Starsolo produces nearly identical gene counts in the same format as the 10x CellRanger, which matters! While CellRanger is not a gold standard, a substantial and growing body of biological interpretations is derived from data processed by it. Aligning with CellRanger enables more meaningful comparisons with such datasets. This is particularly crucial when data integration is required, as no current method can fully correct for technical artifacts without distorting true biological signals.
 
 The github repo also contains usage examples as described below.
 
