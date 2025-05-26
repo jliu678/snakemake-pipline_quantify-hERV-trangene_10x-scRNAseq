@@ -20,7 +20,7 @@ The github repo also contains usage examples as described below.
 
 ## 💡usage example
 
-### 💻 Snakemake schedules and executes Multiple Jobs on clusters using SLURM
+### 💻 Snakemake schedules and executes Multiple SLURM Jobs on clusters
 
 We need first set up profile as demonstrated in [Snakemake documents](https://snakemake.readthedocs.io/en/stable/executing/cli.html#profiles). Then specify below SLURM parameters in a bash file as [example](https://github.com/jliu678/snakemake-pipline_quantify-hERV-trangene_10x-scRNAseq/blob/main/run_snakemake_multi_jobs_10xScRNAseq.slurm)
 
@@ -57,6 +57,6 @@ cd /data/wanglab_mgberis/tmp
 snakemake --configfile ${code_dir}/config_10x3v2or3.yaml --snakefile ${code_dir}/Snakefile_10x3primev2or3 --slurm --profile slurm --default-resources slurm_partition=bigmem
 ```
 
-### 🧾 Snakemake executing on one job in clusters using SLURM
+### 🧾 Snakemake executing on one job in clusters called by SLURM
 
 Please see exmaple [here](https://github.com/jliu678/snakemake-pipline_quantify-hERV-trangene_10x-scRNAseq/edit/main/run_snakemake_single_job_10xScRNAseq.slurm)
